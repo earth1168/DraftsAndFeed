@@ -11,6 +11,7 @@
   "dependencies": {
     "antd": "^4.21.3",
     "@ant-design/icons": "^4.7.0",
+    "@apollo/client": "^3.6.9",
     "apollo-server-micro": "^3.9.0",
     "graphql": "^16.5.0",
     "graphql-scalars": "^1.17.0",
