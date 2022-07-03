@@ -10,7 +10,7 @@ export default async function auth(req: NextApiRequest, res: NextApiResponse) {
     providers: [
       GithubProvider({
         clientId: process.env.GITHUB_ID,
-        clientSecret: process.env.GITHUN_SECRET,
+        clientSecret: process.env.GITHUB_SECRET,
       }),
     ],
     secret: process.env.SECRET,
